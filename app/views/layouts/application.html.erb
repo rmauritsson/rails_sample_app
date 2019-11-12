@@ -19,8 +19,8 @@
         <%= link_to "sample app", '#', id: "logo" %>
         <nav>
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home",   '#' %></li>
-            <li><%= link_to "Help",  static_pages_help_path %></li>
+            <li><%= link_to "Home",   root_path %></li>
+            <li><%= link_to "Help",  help_path %></li>
             <li><%= link_to "Log in", '#' %></li>
           </ul>
         </nav>
@@ -31,18 +31,18 @@
 
     </div>
 
-    <footer class="footer">
-  <small>
-    The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
-  </small>
-  <nav>
-    <ul>
-      <li><%= link_to "About", static_pages_about_path %></li>
-      <li><%= link_to "Contact", '#' %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
-    </ul>
-  </nav>
-</footer>
+  <footer class="footer">
+    <small>
+      The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+    </small>
+    <nav>
+      <ul>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Contact", '#' %></li>
+        <li><a href="http://news.railstutorial.org/">News</a></li>
+      </ul>
+    </nav>
+  </footer>
   </body>
 </html>
